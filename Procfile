@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/todo_jar/todo.jar
+web: java -jar build/libs/todo-0.0.1-SNAPSHOT.jar
